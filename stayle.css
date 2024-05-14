@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+.parent {
+  color: white;
+}
+
+.box {
+  text-align: center;
+  width: 300px;
+  background-color: black;
+}
+
+.box img {
+  width: 100%;
+}
+
+.text {
+  padding: 20px;
+}
+
+.parent {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
